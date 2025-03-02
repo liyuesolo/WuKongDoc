@@ -1,0 +1,1 @@
+Isohedral tiling provides a compact parameter space which can be used to generate metamaterials. In this project, we provdie a 2D mesh generator given an arbitrary set of isohedral tiling parameters

@@ -1,0 +1,22 @@
+site_name: WuKong
+siteurl: https://wukong-sim.cool
+theme: 
+  name: material
+  palette:
+    scheme: "slate"
+    primary: "blue"
+    accent: "light-blue"
+
+repo_name: 'liyuesolo/WuKong2024'
+repo_url: 'https://github.com/liyuesolo/WuKong2024'
+edit_uri: ''
+# site_url: 'https://'
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+
+copyright: Copyright &copy; 2025 Yue Li
