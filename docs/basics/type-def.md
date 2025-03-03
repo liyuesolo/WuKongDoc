@@ -1,4 +1,4 @@
-For legacy reasons, WuKong uses the following type def。 
+For legacy reasons, WuKong uses the following type defs
 
 ```cpp
     template <typename T, int dim>

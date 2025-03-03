@@ -13,6 +13,10 @@ edit_uri: ''
 # site_url: 'https://'
 
 markdown_extensions:
+  - codehilite:
+      guess_lang: false
+      pygments_style: monokai
+      
   - pymdownx.arithmatex:
       generic: true
 
