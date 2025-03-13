@@ -3,14 +3,14 @@ siteurl: https://wukong-sim.cool
 theme: 
   name: material
   palette:
-    scheme: "slate"
+    scheme: "default"
     primary: "blue"
-    accent: "light-blue"
+    accent: "white"
 
 repo_name: 'liyuesolo/WuKong2024'
 repo_url: 'https://github.com/liyuesolo/WuKong2024'
 edit_uri: ''
-# site_url: 'https://'
+site_url: 'https://liyuesolo.github.io/WuKongDoc/'
 
 markdown_extensions:
   - codehilite:
