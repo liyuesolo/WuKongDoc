@@ -1,5 +1,5 @@
 site_name: WuKong
-siteurl: https://wukong-sim.cool
+# siteurl: https://wukong-sim.cool
 theme: 
   name: material
   palette:
