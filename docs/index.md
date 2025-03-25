@@ -15,9 +15,9 @@ WuKong offers a solution by providing minimal code for simulating some of the mo
 
 WuKong support simulation of 
 
-[Discrete Elastic Shell](./projects/discrete-shell.md).
+[Discrete Elastic Shell](./projects/discrete-elastic-shells.md).
 
-[Discrete Elastic Rods](./projects/discrete-shell.md).
+[Discrete Elastic Rods](./projects/discrete-elastic-rods.md).
 
 [Linear Tetrahedral Finite Elements](./projects/linear-tet-fem.md).
 
