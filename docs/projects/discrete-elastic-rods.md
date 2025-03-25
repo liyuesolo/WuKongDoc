@@ -7,12 +7,12 @@ E_{\mathrm{stretch}} = \frac{1}{2} k_s \sum_{i=0}^{N}\frac{1}{L_i}(l_i - L_i)^2
 
 To compute the bending and twisting energy for two adjacent segments,
 \begin{equation}
-E_{\mathrm{bend}} = \frac{1}{2} \sum_{i=1}^{N} \frac{1}{L_{vi}} (\boldsymbol{\kappa}_i - \tilde{\boldsymbol{\kappa}}_i)^{T} \mathbf{B} (\boldsymbol{\kappa} - \tilde{\boldsymbol{\kappa}}_i) \ ,$
+E_{\mathrm{bend}} = \frac{1}{2} \sum_{i=1}^{N} \frac{1}{L_{vi}} (\boldsymbol{\kappa}_i - \tilde{\boldsymbol{\kappa}}_i)^{T} \mathbf{B} (\boldsymbol{\kappa} - \tilde{\boldsymbol{\kappa}}_i) \ ,
 \end{equation}
 where $\boldsymbol{\kappa}$ is the material curvature and $\mathbf{b}$ is a constant diagonal stiffness matrix. Here, $L_{vi}$ is the Voronoi edge length computed from the two adjacent edges, i.e. $L_{vi} = \frac{1}{2}(|\mathbf{x}_i - \mathbf{x}_j| + |\mathbf{x}_i - \mathbf{x}_k|)$
 
 To compute $\boldsymbol{\kappa}$, we first compute the curvature binormal from the two tangent vectors of the two adjacent edges for vertex $i$ following
-$\kappa\mathbf{b}_i = \frac{2\mathbf{t}_{i1} \times \mathbf{t}_{i2}}{1 + \mathbf{t}_{i1} \cdot \mathbf{t}_{i2}} \ .$
+$\kappa\mathbf{b}_i = \frac{2\mathbf{t}_{i1} \times \mathbf{t}_{i2}}{1 + \mathbf{t}_{i1} \cdot \mathbf{t}_{i2}} \ .
 
 We then compute the discrete material curvature using curvature binormal and the adapted frames following
 
